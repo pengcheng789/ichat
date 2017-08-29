@@ -34,3 +34,11 @@ target/
 .classpath
 .project
 Servers/
+
+# Gradle #
+.gradle/
+gradle/
+gradlew
+gradlew.bat
+build/
+out/

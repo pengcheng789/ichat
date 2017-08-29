@@ -1,0 +1,19 @@
+apply plugin: 'java'
+
+group = 'top.pengcheng789'
+version = '1.0-SNAPSHOT'
+
+description = """"""
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+
+
+repositories {
+        
+     maven { url "http://repo.maven.apache.org/maven2" }
+}
+dependencies {
+    compile group: 'org.slf4j', name: 'slf4j-log4j12', version:'1.8.0-alpha2'
+}
